@@ -29,7 +29,7 @@
 */
 
   #content {
-    max-width:  1600px;
+    max-width:  1200px;
     margin: 0 auto;
   
   }
@@ -52,6 +52,7 @@
 
   #background {
     height: 725px;
+    background-color: #A67E55 ;
 }
 
 /*background Colors*/
@@ -60,7 +61,7 @@ body {
   background-color: #649CD4 
 }
 header {
-  background-color:#649CD4;
+  background-color:#A67E55 ;
 }
 nav a:hover {
   background-color: #649CD4;
@@ -79,11 +80,11 @@ nav a:hover {
 }
 
 .msg {
-  background-color: #649CD4;
+  background-color: #A67E55;
 }
 
 footer {
-  background-color: #649CD4;
+  background-color: #A67E55 ;
 }
 
 /* Foreground Colors*/
