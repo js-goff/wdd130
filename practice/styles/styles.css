@@ -1,0 +1,65 @@
+body {
+    margin: 5%;
+    max-width: 1600px;
+}
+
+ #topimage {
+    display: block;
+    padding-bottom: 1rem;
+  
+
+    
+}
+
+ #lowimage {
+    background-color: grey;
+    display: block;
+    max-width: 1280px;
+    padding: 10px;
+  
+   
+
+}  
+
+
+.row {
+    border-radius: 100%;
+    padding: 20px 10px 10px 10px;
+    width: 30.33%;
+    background-color: grey;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+/* .graphic {
+    display: block;
+    border-radius: 100%;
+    max-width: 40%;
+    max-height: 40%;
+    padding: 2.5px;
+ 
+}
+
+.desk { 
+    display: block;
+    border-radius: 100%;
+    max-width: 40%;
+    max-height: 40%;
+    padding: 2.5px;
+    
+}
+
+
+.person { 
+    display: block;
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 100%;
+    padding: 2.5px;
+   
+    
+} */
