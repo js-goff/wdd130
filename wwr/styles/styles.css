@@ -46,6 +46,24 @@
     text-align: center;
   }
 
+  main .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: -2em;
+    background: #649cd4; 
+    padding: 1em;
+    color: #fff;
+    float: right;
+    margin-right: -17px;
+     
+  }
+
+  .grid div {
+    border: solid #a67e55;
+    padding: 5px;
+    margin: 0.5em;
+}
+
   main section {
     text-align: center;
   }
@@ -336,5 +354,7 @@ footer .social img   {
   }
 }
 
-m
-dress4success
+  .grid figcaption {
+  text-align: center;
+  padding: 5px;
+  }
