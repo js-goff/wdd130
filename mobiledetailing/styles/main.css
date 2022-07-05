@@ -116,3 +116,16 @@ h2 {
 
 
 }
+
+.footer-images {
+  display: inline-block;
+  float: right;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+h3 {
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 200px;
+}
