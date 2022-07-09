@@ -33,16 +33,16 @@
   }
 
   .logo {
-    display:block;
+    /* display:block; */
     text-align: center;  
-    max-width: 100%;
-    box-shadow: 3px 3px 3px #03458C;
-    margin: 0.5em;
+    /* max-width: 100%; */
+    /* box-shadow: 3px 3px 3px #03458C; */
+    /* margin: 0.5em; */
     background-color: #0E67B4 ;
   }
 
   nav ul.hide {
-  display: inline-block;
+  display: flex;
    padding: 15px;
    margin-left: 25em;
 
@@ -88,12 +88,11 @@ h1 {
 }
 
 p {
-  display: flex;
-  float: right;
+  display: grid;
   font-family: 'Domine';
   color: #0E67B4;
   font-size: 25px;
-  margin-right: 50px;
+ 
 }
 
 .footer-bar{
@@ -119,14 +118,116 @@ h2 {
 
 }
 
-.footer-images {
-  display: inline-block;
+.footer-images > div {
+  display: flex;
   margin-bottom: 50px;
   margin-right: 20px;
+  float: right;
 }
 
-h3 {
-  margin-left: 5px;
-  padding-left: 10px;
-  padding-right: 200px;
+
+
+/* Footerbar */
+
+footer {
+  background-color: #0e67b4 ;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 3px 3px 3px #03458C;
+}
+
+footer h3 {
+  background-color: #0e67b4;
+  text-decoration: underline;
+  color: #fff
+}
+
+footer a { 
+  background-color: #0e67b4;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: #0e67b4;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  background-color: #0e67b4 ;
+  text-align: center;
+  text-decoration: none;
+  padding: 35px;
+  color: #fff;
+  box-shadow: 3px 3px 3px #03458C;
+}
+
+nav a:hover {
+  background-color: #0e67b4;
+  text-decoration: underline;
+
+}
+
+nav a {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  margin-left: 28px
+ 
+}
+
+header {
+  background-color: #0e67b4 ;
+  /* display: grid; */
+  /* grid-template-columns: 150px auto; */
+  box-shadow: 3px 3px 3px #03458C;
+}
+
+/* services */
+
+main .grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  /* background: #649cd4;  */
+  padding: 1em;
+  color: #fff;
+  float: right;
+  margin-right: -15px;
+   
+}
+
+.grid div {
+  border: solid #0e67b4;
+  padding: 5px;
+  margin: 0.5em;
+}
+
+.grid-services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  /* background: #649cd4;  */
+  padding: 1em;
+  color: #fff;
+  
+}
+
+.grid-services > div > p {
+  display:grid;
+  text-align: center;
 }
